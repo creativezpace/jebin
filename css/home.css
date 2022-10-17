@@ -1,0 +1,107 @@
+
+/* home banner */
+.cct-banner {
+    min-height: 707px;
+    position: relative;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center top;
+}
+
+.cct-banner .cct-banner-text{
+    margin-top: 327px;
+}
+.cct-banner .cct-banner-text h6{
+    text-transform: uppercase;
+    color: #fed31c;
+    letter-spacing: 4px;
+    margin-bottom: 33px;
+}
+/* home banner */
+
+/* about */
+.cct-about{
+    min-height: 627px;
+    position: relative;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center top;
+}
+.cct-about .cct-about-text{
+    margin-top: 151px;
+}
+/* about */
+
+
+@media only screen and (max-width: 1300px){
+    .cct-banner .cct-banner-text {
+        margin-top: 290px;
+    }
+    .cct-banner{
+        min-height: 677px;
+    }
+    .cct-about{
+        min-height: 570px;
+    }
+}
+@media only screen and (max-width: 1200px){
+    .cct-banner .cct-banner-text {
+        margin-top: 250px;
+    }
+    .cct-banner{
+        min-height: 600px;
+    }
+    .cct-about .cct-about-text {
+        margin-top: 131px;
+    }
+    .cct-about {
+        min-height: 540px;
+    }
+}
+@media only screen and (max-width: 1100px){
+    .cct-banner .cct-banner-text h6{
+        margin-bottom: 27px;
+    }
+    .cct-about .cct-about-text {
+        margin-top: 121px;
+    }
+    .cct-about {
+        min-height: 490px;
+    }
+}
+@media only screen and (max-width: 991px){
+    .cct-banner .cct-banner-text{
+        margin-top: 100px;
+    }
+    .cct-banner {
+        min-height: 390px;
+    }
+    .cct-about .cct-about-text{
+        margin-top: 90px;
+    }
+    .cct-about{
+        min-height: 404px;
+    }
+}
+@media only screen and (max-width: 767px){
+    .cct-banner .cct-banner-text h6{
+        margin-bottom: 17px;
+    }
+    .cct-banner .cct-banner-text {
+        margin-top: 80px;
+    }
+    .cct-about .cct-about-text {
+        margin-top: 70px;
+    }
+    .cct-about {
+        min-height: 384px;
+    }
+}
+@media only screen and (max-width: 600px){
+    .cct-about .cct-about-text p br{
+        display: none;
+    }
+}
+@media only screen and (max-width: 600px){
+    letter-spacing: 0;
+}

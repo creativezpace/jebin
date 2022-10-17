@@ -1,0 +1,607 @@
+body{
+    top: 0;
+    overflow-x: hidden;
+    margin: 0;
+}
+.container{
+    max-width: 1293px;
+    width: 100%;
+}
+a, a:hover, a:focus {
+	text-decoration:none;
+    outline:none;
+    color: #ffffff;
+}
+b, strong {
+    font-weight: 700;
+}
+
+img {
+	max-width:100%;
+	height: auto;
+}
+/*align*/
+.alignright {
+    float: right;
+    margin-left: 20px !important;
+	margin-bottom: 10px;
+    margin-top: 10px;
+    max-width: 100%;
+}
+
+.alignleft {
+    float: left;
+    margin-right: 20px !important;
+	margin-bottom: 10px;
+    margin-top: 10px;
+    max-width: 100%;
+}
+.aligncenter{
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	max-width: 100%;
+	margin-bottom: 15px;
+	margin-top: 10px;
+}
+.alignnone{
+	float: none;
+	display: block;
+	margin-bottom: 15px;
+	margin-top: 10px;
+}
+/*align*/
+
+h1{
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 60px;
+    line-height: 70px;
+    font-weight: 400;
+    margin-bottom: 15px;
+    color: #ffffff;
+}
+h2{
+    font-family: 'Lora', serif;
+    font-size: 48px;
+    line-height: 60px;
+    font-weight: 400;
+    margin-bottom: 15px;
+    color: #06497b;
+}
+h3{
+    font-family: 'Lora', serif;
+    font-size: 36px;
+    line-height: 48px;
+    font-weight: 400;
+    margin-bottom: 15px;
+    color: #372b21;
+}
+h4{
+    font-family: 'Lora', serif;
+    font-size: 24px;
+    line-height: 40px;
+    font-weight: 300;
+    color: #372b21;
+    margin-bottom: 19px;
+}
+h5{
+    font-family: 'Lora', serif;
+    font-size: 21px;
+    line-height: 36px;
+    font-weight: 400;
+    margin-bottom: 15px;
+    color: #372b21;
+}
+h6{
+    font-family: 'Lora', serif;
+    font-size: 18px;
+    line-height: 32px;
+    font-weight: 400;
+    margin-bottom: 15px;
+    color: #372b21;
+}
+P{
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 16px;
+    line-height: 28px;
+    font-weight: 300;
+    color: #372b21;
+    margin-bottom: 15px;
+}
+ol, ul{
+    padding: 0;
+    margin: 0;
+}
+ul li{
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 16px;
+    line-height: 28px;
+    font-weight: 300;
+    color: #ffffff;
+    margin: 0 0 10px;
+    list-style: none;
+    padding-left: 17px;
+    position: relative;
+}
+
+ul li::before{
+    position: absolute;
+    content: '';
+    width: 7px;
+    height: 7px;
+    left: 0;
+    background-color: #919758;
+    border-radius: 50px;
+    top: 11px;
+    display: none;
+}
+ol li{
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 16px;
+    line-height: 28px;
+    font-weight: 300;
+    color: #372b21;
+    margin: 0 0 15px;
+    list-style: none;
+}
+
+/* blockquote */
+blockquote{
+    background-color: #f8f8f4;
+    width: 100%;
+    position: relative;
+    border-left: 2px solid #c19458;
+    padding: 40px 30px 40px 44px;
+    margin: 50px 0 63px;
+}
+blockquote img{
+    margin-bottom: 0 !important;
+}
+blockquote .cct-blockqute-text {
+    width: 62.4%;
+    display: inline-block;
+    vertical-align: top;
+    padding-left: 33px;
+    padding-top: 15px;
+}
+blockquote .cct-blockqute-text p{
+    font-size: 24px;
+    line-height: 36px;
+    font-family: 'Nunito Sans', sans-serif;
+    margin-bottom: 14px;
+    font-weight: 400;
+}
+blockquote .cct-blockqute-text cite{
+    display: block;
+    font-family: 'Nunito Sans', sans-serif;
+    font-style: unset;
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #c19458;
+}
+/* blockquote */
+
+/* header */
+.cct-connecat{
+   position: fixed;
+    z-index: 100;
+    padding: 21px 0 21px;
+    width: 100%;
+    border-bottom: 1px solid rgba(225,225,225,.3);
+}
+.cct-connecat .cct-logo{
+    margin-left: 13px;
+}
+.cct-connecat .cct-connect_contact{
+    float: right;
+    margin-right: 20px;
+    margin-top: 15px;
+}
+.cct-connecat .cct-connect_contact .navbar-nav li{
+    padding-left: 22px;
+}
+.cct-connecat .cct-connect_contact ul li a:hover{
+    color: #cba918;
+}
+
+
+
+/* stick */
+.fixed{
+    position: fixed;
+    top: 0px;
+    left: 0;
+    width: 100%;
+    background-color: rgba(31,31,31,.7);
+    -webkit-transition-duration: 0.5s;
+    transition-duration: 0.5s;
+    -webkit-transition-timing-function: ease-out;
+    transition-timing-function: ease-out;
+}
+/* stick */
+/* header */
+
+
+
+/*Free Consultation*/
+.cct-fre-consultaion-wrap{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 112px 0 88px;
+    text-align: center;
+}
+.cct-fre-consultaion-wrap .cct-form{
+    max-width: 1170px;
+    margin: 0 auto;
+    border-bottom: 1px solid rgba(255,255,255,.25);
+    padding-bottom: 19px;
+}
+.cct-fre-consultaion-wrap .cct-form form{
+    text-align: left;
+}
+.cct-fre-consultaion-wrap .cct-form h2{
+    color: #fff;
+}
+.cct-fre-consultaion-wrap .cct-form p{
+    color: #fff;
+}
+.cct-fre-consultaion-wrap .cct-form p strong{
+    display: block;
+    margin-top: 2px;
+}
+.cct-form ul li {
+    display: inline-block;
+    vertical-align: top;
+    width: 48.74%;
+    margin-bottom: 27px;
+    margin-right: 25px;
+}
+.cct-form ul li:nth-child(2n){
+    margin-right: 0;
+}
+.cct-form ul li:last-child{
+    width: 100%;
+    text-align: center;
+}
+.cct-form input[type="text"],
+.cct-form input[type="tel"],
+.cct-form input[type="email"],
+.cct-form textarea{
+    font-family: 'Nunito Sans', sans-serif;
+    color: #ffffff;
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 600;
+    height: 52px;
+    outline: none;
+    border: 1px solid rgba(255,255,255,.23);
+    background: transparent;
+    width: 100%;
+    padding: 10px 17px;
+    background-color: rgba(0,0,0,.23);
+    display: block;
+}
+.cct-form input[type="text"]::placeholder,
+.cct-form input[type="tel"]::placeholder,
+.cct-form input[type="email"]::placeholder,
+.cct-form textarea::placeholder{
+    opacity: 1;
+    color: #fff;
+}
+.cct-form input[type="text"]:focus,
+.cct-form input[type="tel"]:focus,
+.cct-form input[type="email"]:focus,
+.cct-form textarea:focus{
+    background-color: #fff;
+    color: #032c4c;
+    transition: all .3s linear;
+    -webkit-transition: all .3s linear;
+}
+.cct-form input[type="text"]:focus::placeholder,
+.cct-form input[type="tel"]:focus::placeholder,
+.cct-form input[type="email"]:focus::placeholder,
+.cct-form textarea:focus::placeholder{
+    color: #032c4c;
+    transition: all .3s linear;
+    -webkit-transition: all .3s linear;
+}
+.cct-form ul li img{
+    cursor: pointer;
+}
+.cct-form textarea{
+    height: 172px;
+    padding-top: 16px;
+}
+.cct-form ul li:nth-child(5){
+    width: 100%;
+    margin-bottom: 23px;
+}
+.cct-submit-btn{
+    outline: none;
+    border: none;
+    font-family: 'Nunito Sans', sans-serif;
+    display: inline-block;
+    vertical-align: top;
+    font-size: 28px;
+    padding: 10px;
+    line-height: 27px;
+    font-weight: 700;
+    color: #fff;
+    width: 267px;
+    height: 67px;
+    border-radius: 5px;
+    background: linear-gradient(rgba(10,175,183,1) , rgba(8,127,201,1));
+    text-transform: uppercase;
+    margin-left: 25px;
+    cursor: pointer;
+}
+.cct-submit-btn:hover{
+    color: #fff;
+    background: linear-gradient(rgba(8,127,201,1) , rgba(10,175,183,1));
+}
+
+.cct-form-icon{
+    padding-top: 21px;
+}
+.cct-form-icon ul li{
+    display: inline-block;
+    width: 20.8%;
+}
+.cct-form-icon ul li .cct-form-content{
+    position: relative;
+}
+.cct-form-icon ul li .cct-form-content::before{
+    position: absolute;
+    content: "";
+    background-color: rgba(255,255,255,0.2);
+    width: 2px;
+    height: 63px;
+    right: 0;
+    top: 29px;
+}
+.cct-form-icon ul li:last-child .cct-form-content::before{
+    display: none;
+}
+.cct-form-icon ul li .cct-form-content img{
+    margin-bottom: 17px;
+}
+.cct-form-icon ul li .cct-form-content h6{
+    font-size: 21px;
+    color: #fff;
+    font-weight: 300;
+    margin-bottom: 0;
+}
+.cct-form-icon ul li .cct-form-content a{
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 18px;
+    color: #fff;
+    font-weight: 500;
+}
+.cct-form-icon ul li .cct-form-content p{
+    line-height: 26px;
+    color: #fff;
+}
+/*Free Consultation end*/
+
+/* footer */
+.cct-footer{
+    background-color: #26296a;
+    padding-top: 84px;
+}
+
+.cct-footer-class{
+    text-align: right;
+    display: block;
+}
+.cct-footer .cct-footer-menu, .cct-footer .cct-footer-contact{
+    display: inline-block;
+}
+.cct-footer .cct-footer-contact{
+    vertical-align: top;
+}
+.cct-footer .cct-footer-menu{
+    text-align: left;
+    float: left;
+}
+.cct-footer-class .cct-footer-menu ul li{
+    padding: 0;
+}
+.cct-footer-class .cct-footer-menu ul li a:hover{
+    color: #cba918;
+}
+
+.cct-footer-bottom{
+    background-color: #171a21;
+    padding: 21px 0 22px 0;
+    margin-top: 30px;
+}
+.cct-footer-bottom p{
+    color: #fff;
+    margin: 0;
+}
+.cct-footer-bottom .cct-footer-bottom-right{
+    float: right;
+    margin: 0;
+}
+
+/* footer  */
+
+
+
+@media only screen and (max-width: 1300px){
+    h1{
+        font-size: 57px;
+    }
+    .cct-form ul li{
+        width: 48%;
+    }
+}
+@media only screen and (max-width: 1200px){
+    h1{
+        font-size: 53px;
+    }
+    .cct-form ul li{
+        margin-right: 19px;
+        width: 48.8%;
+        padding-left: 0;
+    }
+}
+@media only screen and (max-width: 1100px){
+    h1 {
+        font-size: 50px;
+    }
+    .cct-connecat .cct-connect_contact .navbar-nav li{
+        font-size: 14px;
+    }
+    .cct-connecat .cct-connect_contact{
+        margin-right: 0;
+    }
+    connect_contact .navbar-nav li {
+        padding-left: 20px;
+    }
+    .cct-form ul li{
+        margin-right: 19px;
+        width: 48.7%;
+        padding-left: 0;
+    }
+}
+@media only screen and (max-width: 992px){
+    h1 {
+        font-size: 45px;
+    }
+    h2{
+        font-size: 40px;
+    }
+    .cct-connecat{
+        position: relative;
+        background-color: #26296a;
+    }
+    .cct-connect_contact .navbar-toggler{
+        padding: 0;
+        background-color: #fff;
+        border: none;
+        border-radius: 0;
+    }
+    .cct-connecat .navbar{
+        position: absolute;
+        padding: 0;
+        /* right: 15px; */
+        width: 100%;
+    }
+    .cct-connect_contact .navbar-nav{
+        position: absolute;
+        width: 100%;
+        z-index: 9999;
+        transform-origin: top;
+        overflow-y: hidden;
+        left: 0;
+        top: 84px;
+        background-color: #04002b;
+        padding-right: 40px;
+        padding-left: 40px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+     .cct-connect_contact{
+        width: 100%;
+    }
+    .cct-connecat .cct-connect_contact .navbar-nav li {
+        padding-left: 0;
+    }
+    .cct-banner-text h1 br{
+        display: none;
+    }
+    .cct-connecat .cct-connect-full{
+        position: absolute;
+        flex: 0 0 100%;
+        max-width: 100%;
+        padding: 0;
+    }
+    .cct-form ul li{
+        margin-right: 0;
+        padding-left: 0;
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .cct-form-icon ul li{
+        width: 48%;
+    }
+    .cct-submit-btn{
+        font-size: 20px;
+        width: 200px;
+    }
+    .cct-footer{
+        padding-top: 70px;
+    }
+    .cct-footer-bottom p, .cct-footer-bottom .cct-footer-bottom-right{
+        font-size: 15px;
+    }
+    .cct-connecat{
+        position: relative;
+    }
+    .navbar-light .navbar-toggler{
+        position: absolute;
+        right: 15px;
+        top: 0;
+    }
+    .cct-connecat .cct-connect_contact .navbar{
+        width: 100%;
+        position: relative;
+    }
+    .cct-connecat .cct-connect_contact .navbar-nav li{
+        margin: 0 0 8px;
+        line-height: 20px;
+    }
+    .cct-connecat .navbar-light .navbar-toggler{
+        color: transparent;
+        border-color: transparent;
+    }
+}
+@media only screen and (max-width: 767px){
+    h1 {
+        font-size: 40px;
+        line-height: 60px;
+    }
+    h2 {
+        font-size: 35px;
+    }
+    .cct-fre-consultaion-wrap{
+        padding: 82px 0 68px;
+    }
+    .cct-footer-class{
+        padding-top: 50px;
+    }
+    .cct-footer-bottom p, .cct-footer-bottom .cct-footer-bottom-right{
+        text-align: center;
+    }
+    .cct-footer-bottom .cct-footer-bottom-right{
+        float: none;
+    }
+}
+@media only screen and (max-width: 600px){
+    h1{
+        line-height: 50px;
+    }
+    h2 {
+        line-height: 40px;
+    }
+    .cct-connect_contact .navbar-nav{
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+}
+@media only screen and (max-width: 400px){
+    .cct-form-icon ul li{
+        width: 100%;
+    }
+    .cct-form-icon ul li .cct-form-content::before{
+        display: none;
+    }
+}
+
+
+
+
+
